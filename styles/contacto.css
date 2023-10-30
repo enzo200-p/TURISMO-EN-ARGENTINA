@@ -1,0 +1,52 @@
+.formulario1{
+    background-color: rgb(1, 196, 8);
+    width: 200px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    padding: auto;
+    margin: auto;
+    border-radius: 15px;
+
+    
+}
+h3{
+    text-align: center;
+}
+input{
+    background-color: rgb(200, 238, 200);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    height: 20px;
+}
+input:hover{
+    background-color: grey;
+}
+p{
+    text-align: center;
+}
+.boton{
+    margin-top: 3px;
+    margin-left: 70px;
+    
+}
+
+h4{
+    text-align: center;
+}
+.comentario{
+    background: rgb(252, 249, 249);
+    padding: 0;
+    margin-left: 1em;
+    width: 80%;
+}
+.formulario2{
+    border-style: hidden;
+    margin: 0;
+    padding: 0;
+}
+.boton2{
+    margin:3px, 50px, 3px, 50px;
+    position: center;
+}

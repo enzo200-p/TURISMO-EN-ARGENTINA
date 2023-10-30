@@ -1,0 +1,36 @@
+.contenedor{
+    border: 2px;
+    margin: 2px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(190,197,197);
+    
+
+}
+.cuadrado{
+    margin:auto;
+    cursor: pointer;
+    
+    
+   
+    
+    
+}
+.foto{
+    padding: auto; 
+    margin: auto;
+    border: 2px;
+    width: 200px;
+    height: 200px;
+    
+    
+    
+}
+.foto:hover{
+    transform: translate(-2px, -5px)rotate(10deg)scale(1,1);
+    translate: -3px -5px;
+}    

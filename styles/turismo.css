@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+section{
+    background:rgb(190,197,197);
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
+
+
+h1{
+    text-align: center;
+}
+
+.carrusel{
+    display: flex;
+    overflow-y:auto;
+    
+}
+
+.carrusel.elemento{
+    width: 100%;
+    object-fit: cover;
+}
+.elemento{
+    background-color: black;
+    border-color: black;
+    border-radius: 15px;
+    border-style: groove;
+    margin: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+.tarjeta{
+    border-radius: 15px;
+    margin: 5px 5px 0 5px;
+    padding: 0;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+
+}
+p{
+    color: white;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
